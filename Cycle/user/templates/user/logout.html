@@ -1,0 +1,15 @@
+{% extends "bookpark/root.html" %}
+{% load crispy_forms_tags %}
+{% block body %}
+
+        <h1> You have been logged out 
+
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                <a href="{% url 'login' %}"> Log In </a> Back 
+            </small>
+        </div>
+
+        </h1>
+
+{% endblock body %}
